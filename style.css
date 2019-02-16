@@ -1,0 +1,99 @@
+/* header section for index.html page */
+header{
+    display: block;
+    width: 95%;
+    background-color: #335aff;
+    color: #fff;
+    margin: 1%  auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 40px;
+}
+a img{
+    display: block;
+    width: 50px;
+    height: auto;
+    margin: auto;
+    /* margin:0 3px 0 auto; */
+    padding: 1%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:2px solid #ddd;
+    background-color: grey;
+    }
+.ca{
+    border:2px solid #ddd;
+    width:85%;
+    margin:2%;
+    padding: 2%;
+    background-color: lightyellow;
+}
+.s1{
+  width: 40%;
+  border: 2px solid #ddd;
+  margin: 2%;
+  padding: 2%;
+  background-color: lightgreen;
+}
+select,input{
+  width: 90%;
+  margin: 1%;
+  padding: 1%;
+}
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px slodi #ddd;
+}
+.child{
+  width: 20%;
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+.img{
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+}
+h4,h1,a{
+  text-align: center;
+}
+/* //resume html page */
+.main1{
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #00ff;
+  width: 90%;
+  margin: 1% auto;
+}
+.left{
+  width: 25%;
+  border: 2px solid #ddd;
+  margin: 1%;
+  background-color: yellow;
+}
+.right{
+  width: 65%;
+  border: 2px solid #ddd;
+  margin:1%;
+  background-color: lightblue;
+}
+p{
+  /* text-align: center; */
+  font-size: 20px;
+
+}
+li{
+  font-size: 25px;
+  /* font-weight: bold; */
+
+}
